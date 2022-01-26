@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Header from './components/TokenInfo/Header';
+import GetBalance from './components/TokenInfo/GetBalance';
+import BuyForm from './components/PersonalPanel/BuyForm';
+import TransferForm from './components/PersonalPanel/TransferForm';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+     <GetBalance/>
+     <div>Wanna transfer?</div>
+     <TransferForm/>
+     <div>Wanna buy?</div>
+     <BuyForm/>
     </div>
   );
 }
