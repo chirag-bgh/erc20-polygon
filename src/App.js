@@ -1,8 +1,8 @@
 import './App.css';
 import Header from './components/TokenInfo/Header';
 import GetBalance from './components/TokenInfo/GetBalance';
-import BuyForm from './components/PersonalPanel/BuyForm';
-import TransferForm from './components/PersonalPanel/TransferForm';
+import BuyForm from './components/PersonalPanel/BuyFrom';
+import TransferForm from './components/PersonalPanel/TransferFrom';
 function App() {
   return (
     <div className="App">
