@@ -1,5 +1,5 @@
 export const ADDRESS = "0xd9145CCE52D386f254917e481eB44e9943F39138"//Paste address here
-export const DECIMALS = 100;//The number of decimals you chose when deploying the contract
+export const DECIMALS = 100//The number of decimals you chose when deploying the contract
 export const ABI = [
 	{
 		"inputs": [
